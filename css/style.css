@@ -14,14 +14,10 @@ body {
 .container {
     margin: auto;
     width: auto;
-    /* height: 500px; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(9, auto);
     grid-gap: 24px;
-    /* grid-template-columns: [left-start] repeat(4, 1fr) [left-end][main-start] repeat(4, 1fr) [main-end][right-start] repeat(4, 1fr) [right-end];
-    grid-template-rows: [top-start] repeat(3, 1fr) [top-end][mid-start] repeat(3, 1fr) [mid-end][bot-start] repeat(3, 1fr) [bot-end]; */
-   
     grid-template-areas:
         "a a a a b b b b c c c c"
         "a a a a b b b b c c c c"
@@ -37,8 +33,6 @@ body {
     background-color: white;
     color: black;
     height: 100%;
-    /* border-style: solid;
-    border-color: black; */
 }
 .whitetext {
     color: white;
@@ -90,6 +84,14 @@ img {
     color: grey;
 
 }
+.w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover {
+    color:#000!important;
+    background-color:#9e9e9e!important
+}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
+    color:#000!important;
+    background-color:#f1f1f1!important;
+}
 /* left side */
 .left-top {
     grid-area: a;
@@ -130,6 +132,7 @@ img {
 .dagger {
     height: 15px;
     width: 80px;
+    margin-right: 2px;
 }
 .textbar {
     padding: 0 14px 8px 14px;
@@ -375,4 +378,114 @@ h7 {
 }
 .fixit {
     overflow: auto;
+}
+.table {
+	display: table;
+	margin: 10px 0;
+}
+.letsee {
+    display: inline;
+}
+.listfont {
+    color: grey;
+    font-size: 8px;
+}
+.justi {
+    float: left;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+.justi li{
+    margin: 30px 0;
+    color: grey;
+}
+.righti {
+    float: left;
+    justify-content: flex-end;
+    margin: 28px 0;
+}
+.righti ul {
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.crossline {
+    padding-top: 10px;
+}
+.w3-grey1 {
+    height: 10px;
+    width: 64%;
+    color: #000!important;
+    background-color: orangered!important
+}
+.w3-grey2 {
+    height: 10px;
+    width: 72%;
+    margin: 2px 0px;
+    color: #000!important;
+    background-color: #c3a279!important
+}
+.w3-grey3 {
+    height:10px;
+    width:84%
+}
+.line {
+    display: inline-block;
+    width: 46px;
+    height: 3px;
+    background-color: lightgrey;
+    margin-bottom: 4px;
+}
+.peeps {
+    font-size: 24px;
+}
+.greypeep {
+    color: grey;
+}
+.darkpeep {
+    color: #4E4945;
+}
+.orgpeep {
+    color: orangered
+}
+.XV {
+    margin: auto;
+}
+.numberCircle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px 5px 2px 5px;
+    background: #fff;
+    border: 2px solid lightgrey;
+    color: #666;
+    text-align: center;
+    margin: 8px auto;
+    display: inline-block;
+    clip: rect(50px,50px,500px,0px);
+}
+.numbercircle2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px 5px 2px 5px;
+    background: #fff;
+    border: 2px solid rgb(71, 71, 71);
+    color: rgb(75, 74, 74);
+    text-align: center;
+    margin: 8px auto;
+    display: inline-block;
+    clip: rect(5px, 50px/2, 50px, 5px);
+}
+.numberCircle3 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 15px 5px 2px 5px;
+    background: #fff;
+    border: 2px solid orangered;
+    color: #666;
+    text-align: center;
+    margin: 8px auto;
+    display: inline-block;
+    clip: rect(5px, 50px/2, 50px, 5px);
 }

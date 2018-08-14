@@ -376,3 +376,10 @@ h7 {
 .fixit {
     overflow: auto;
 }
+.table {
+	display: table;
+	margin: 0 auto;
+}
+.letsee {
+    display: inline;
+}
