@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
 }
 .main {
-    margin: 50px auto;
+    margin: 45px auto;
     width: 78%;
 }
 .container {
@@ -106,7 +106,7 @@ img {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 10px auto;
+    padding: 2px 24px;
     text-align: center;
 }
 .topitem {
@@ -144,7 +144,7 @@ img {
     background-color: orangered;
 }
 .brownbg {
-    background-color: rgb(147, 120, 8);
+    background-color: #7F6C5E;
 }
 /* mid side */
 .mid-top {
@@ -349,7 +349,7 @@ h6 {
     -webkit-margin-before: 0.3em;
     -webkit-margin-after: 0.3em;
 }
-h7 {
+.h7 {
     font-size: .5em;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -459,7 +459,7 @@ h7 {
     border: 2px solid lightgrey;
     color: #666;
     text-align: center;
-    margin: 8px auto;
+    margin: 8px 10px;
     display: inline-block;
     clip: rect(50px,50px,500px,0px);
 }
@@ -472,9 +472,8 @@ h7 {
     border: 2px solid rgb(71, 71, 71);
     color: rgb(75, 74, 74);
     text-align: center;
-    margin: 8px auto;
+    margin: 8px 10px;
     display: inline-block;
-    clip: rect(5px, 50px/2, 50px, 5px);
 }
 .numberCircle3 {
     border-radius: 50%;
@@ -485,7 +484,9 @@ h7 {
     border: 2px solid orangered;
     color: #666;
     text-align: center;
-    margin: 8px auto;
+    margin: 8px 10px;
     display: inline-block;
-    clip: rect(5px, 50px/2, 50px, 5px);
+}
+.less {
+    margin-bottom: 0;
 }
