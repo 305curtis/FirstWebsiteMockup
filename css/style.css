@@ -448,20 +448,21 @@ h6 {
     color: orangered
 }
 .XV {
-    margin: auto;
+    /* margin: auto; */
+    transform: rotate(-30deg); 
 }
 .numberCircle {
     border-radius: 50%;
     width: 50px;
     height: 50px;
     padding: 15px 5px 2px 5px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
     border: 2px solid lightgrey;
     color: #666;
     text-align: center;
     margin: 8px 10px;
     display: inline-block;
-    clip: rect(50px,50px,500px,0px);
+    clip: rect(0px,50px,500px,0px);
 }
 .numbercircle2 {
     border-radius: 50%;
@@ -473,6 +474,7 @@ h6 {
     color: rgb(75, 74, 74);
     text-align: center;
     margin: 8px 10px;
+    border-right: solid transparent;
     display: inline-block;
 }
 .numberCircle3 {
@@ -490,3 +492,4 @@ h6 {
 .less {
     margin-bottom: 0;
 }
+address
